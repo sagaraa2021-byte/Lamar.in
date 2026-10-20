@@ -1,1 +1,564 @@
-# Lamar.in
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Surat Lamaran Kerja Online Gratis — Lamar.in</title>
+<meta name="description" content="Buat surat lamaran kerja online gratis dalam bahasa Indonesia atau Inggris. Pilih desain, tambah foto, tanda tangan, dan lampiran, lalu cetak atau simpan sebagai PDF.">
+<meta name="keywords" content="surat lamaran kerja, contoh surat lamaran kerja, buat surat lamaran online, generator surat lamaran, lamaran kerja">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Lamar.in">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="Lamar.in">
+<meta property="og:title" content="Lamar.in: Pembuat Surat Lamaran Kerja Online">
+<meta property="og:description" content="Susun surat lamaran kerja yang rapi dalam hitungan menit. Gratis, tanpa daftar akun.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lamar.in: Pembuat Surat Lamaran Kerja Online">
+<meta name="twitter:description" content="Susun surat lamaran kerja yang rapi dalam hitungan menit. Gratis, tanpa daftar akun.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Bagaimana format surat lamaran kerja yang benar?","acceptedAnswer":{"@type":"Answer","text":"Urutannya: tempat dan tanggal, perihal dan jumlah lampiran, alamat tujuan (Kepada Yth.), salam pembuka, paragraf maksud melamar dan sumber lowongan, data diri, daftar lampiran, paragraf penutup, lalu tanda tangan di atas nama terang."}},
+{"@type":"Question","name":"Apakah lulusan SMA atau SMK termasuk fresh graduate?","acceptedAnswer":{"@type":"Answer","text":"Ya. Fresh graduate berarti baru lulus dan belum punya pengalaman kerja penuh, apa pun jenjang pendidikannya."}},
+{"@type":"Question","name":"Surat lamaran sebaiknya PDF atau tulis tangan?","acceptedAnswer":{"@type":"Answer","text":"Ikuti permintaan di iklan lowongan. Untuk lamaran online atau email, PDF adalah pilihan yang umum."}},
+{"@type":"Question","name":"Apakah data saya aman?","acceptedAnswer":{"@type":"Answer","text":"Semua data diproses di browser dan tersimpan di perangkat Anda saja. Tidak ada data yang dikirim ke server."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Lamar.in","description":"Pembuat surat lamaran kerja online dengan pratinjau langsung dan lampiran file.","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"id","offers":{"@type":"Offer","price":"0","priceCurrency":"IDR"}}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{--bg:#e9edf0;--panel:#fff;--ink:#14212b;--mute:#5d6d7a;--line:#d3dbe1;--desk:#dfe5e9;--acc:#1f5eff;--onacc:#fff;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f171d;--panel:#18232b;--ink:#e8eef2;--mute:#92a3af;--line:#2b3a44;--desk:#0b1115}}
+:root[data-theme="dark"]{--bg:#0f171d;--panel:#18232b;--ink:#e8eef2;--mute:#92a3af;--line:#2b3a44;--desk:#0b1115}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif}
+.app{display:grid;grid-template-columns:minmax(320px,440px) 1fr;min-height:100vh}
+.side{background:var(--panel);border-right:1px solid var(--line);padding:24px 22px 40px;overflow-y:auto;max-height:100vh;position:sticky;top:0}
+.brand{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.logo{width:34px;height:34px;border-radius:10px 10px 10px 2px;background:var(--acc);display:grid;place-items:center;color:var(--onacc);font-weight:800}
+h1{font-size:22px;margin:0;font-weight:800;letter-spacing:-.02em}
+.sub{color:var(--mute);margin:0 0 18px;font-size:14px}
+.meter{background:var(--bg);border-radius:12px;padding:12px 14px;margin-bottom:18px}
+.meter b{font-size:14px}.bar{height:8px;border-radius:8px;background:var(--line);margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--acc);border-radius:8px;transition:width .4s}
+.meter small{color:var(--mute);display:block;margin-top:6px;font-size:13px}
+fieldset{border:0;padding:0;margin:0 0 20px}
+legend{font-weight:800;font-size:15px;margin-bottom:10px;padding:0}
+label{display:block;font-size:13px;color:var(--mute);margin:10px 0 4px}
+input,textarea,select{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1.5px solid transparent;border-radius:10px;padding:10px 12px}
+textarea{resize:vertical;min-height:70px}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--acc)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--onacc)}
+.chip:focus-visible,.btn:focus-visible,.sw:focus-visible,.tab:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.sw{width:30px;height:30px;border-radius:50%;border:3px solid var(--panel);box-shadow:0 0 0 1.5px var(--line);cursor:pointer;padding:0}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2.5px var(--ink)}
+.stage{background:var(--desk);padding:28px 24px 60px;display:flex;flex-direction:column;align-items:center;min-width:0}
+.bar2{width:100%;max-width:794px;display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.btn{font:inherit;font-weight:600;font-size:14px;border-radius:10px;padding:10px 16px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.btn.p{background:var(--acc);border-color:var(--acc);color:var(--onacc)}
+.hint{color:var(--mute);font-size:13px}
+.wrap{width:100%;max-width:794px;overflow-x:auto}
+#paper{background:#fff;color:#1b1b1b;width:100%;min-width:560px;aspect-ratio:210/297;padding:54px 60px;font-size:13.5px;line-height:1.62;box-shadow:0 1px 2px rgba(0,0,0,.12),0 24px 50px -18px rgba(0,0,0,.35);position:relative;overflow:hidden;overflow:clip;transition:font-family .2s}
+#paper p{margin:0 0 11px}
+#paper .hd{margin-bottom:22px}
+#paper .nm{font-size:22px;font-weight:800;line-height:1.1}
+#paper .ct{color:#555;font-size:12.5px}
+#paper ol{margin:4px 0 12px;padding-left:20px}
+.tpl-klasik{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-size:14.5px!important}
+.tpl-klasik .hd{text-align:center;border-bottom:2px solid var(--acc);padding-bottom:12px}
+.tpl-klasik .nm{font-weight:600;letter-spacing:.02em}
+.tpl-modern{font-family:"Bricolage Grotesque",system-ui,sans-serif;border-left:14px solid var(--acc)}
+.tpl-modern .nm{color:var(--acc)}
+.tpl-kreatif{font-family:"Bricolage Grotesque",system-ui,sans-serif;padding-top:0!important}
+.tpl-kreatif .hd{background:var(--acc);color:var(--onacc);margin:0 -60px 26px;padding:34px 60px 26px;border-radius:0 0 40px 0}
+.tpl-kreatif .nm{font-size:34px;letter-spacing:-.03em}
+.tpl-kreatif .ct{color:inherit;opacity:.9}
+.ph{color:#9aa5ad;background:repeating-linear-gradient(90deg,#f1f4f6,#f1f4f6 4px,#fff 4px,#fff 6px);border-radius:3px}
+.dz{display:block;border:2px dashed var(--line);border-radius:14px;padding:16px;margin:14px 0 0;text-align:center;cursor:pointer;color:var(--mute);font-size:13px;position:relative;transition:border-color .2s,background .2s}
+.dz b{display:block;color:var(--ink);font-size:15px;margin-bottom:2px}
+.dz:hover,.dz.over,.dz:focus-within{border-color:var(--acc);background:var(--bg)}
+.sr{position:absolute;opacity:0;width:1px!important;height:1px;padding:0!important;pointer-events:none}
+#flist{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+#flist li{display:flex;align-items:center;gap:8px;background:var(--bg);border-radius:10px;padding:8px}
+.th{width:44px;height:44px;border-radius:8px;overflow:hidden;background:var(--line);display:grid;place-items:center;font-size:11px;font-weight:800;flex:none}
+.th img{width:100%;height:100%;object-fit:cover}
+.fi{flex:1;min-width:0}.fi b{display:block;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fi small{color:var(--mute);font-size:12px}
+#flist button{border:0;background:transparent;color:var(--mute);cursor:pointer;font-size:15px;width:28px;height:28px;border-radius:8px;flex:none}
+#flist button:hover{background:var(--line);color:var(--ink)}
+#flist button:focus-visible{outline:3px solid var(--acc)}
+#fmsg{color:#c2410c;font-size:13px;margin:6px 0 0}
+.lpage{background:#fff;color:#1b1b1b;width:100%;min-width:560px;aspect-ratio:210/297;margin-top:24px;padding:44px 50px;display:flex;flex-direction:column;gap:16px;box-shadow:0 1px 2px rgba(0,0,0,.12),0 24px 50px -18px rgba(0,0,0,.35)}
+.lh{font-weight:800;font-size:14px;border-bottom:3px solid var(--acc);padding-bottom:8px}
+.lpage img{flex:1;min-height:0;max-width:100%;object-fit:contain}
+#paper .hd{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.hx{min-width:0}
+.pf{width:calc(var(--pfs,120)*1px);height:calc(var(--pfs,120)*1px);object-fit:cover;flex:none;border:3px solid #fff;box-shadow:0 0 0 1.5px #d6dde2}
+.pf.round{border-radius:50%}.pf.square{border-radius:10px}
+#paper.tpl-klasik .hd{flex-direction:column;justify-content:center}
+.tpl-klasik .pf{order:-1;box-shadow:0 0 0 1px #222}
+.tpl-kreatif .pf{box-shadow:none}
+input[type=range]{padding:0;background:none;border:0;accent-color:var(--acc);cursor:pointer}
+.pfrow{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.pfth{position:relative;width:64px;height:64px;margin:0!important;border-radius:50%;background:var(--bg);border:2px dashed var(--line);display:grid;place-items:center;overflow:hidden;color:var(--mute);font-size:24px;flex:none;cursor:pointer}
+.pfth img{width:100%;height:100%;object-fit:cover}
+.pfth:focus-within{outline:3px solid var(--acc)}
+.cust{display:block;position:relative;background:conic-gradient(#f00,#ff0,#0f0,#0ff,#00f,#f0f,#f00);margin:0!important}
+.cust.on{box-shadow:0 0 0 2.5px var(--ink)}
+.cust:focus-within{outline:3px solid var(--acc);outline-offset:2px}
+#swatches{gap:10px}
+.dd{border-collapse:collapse;margin:0 0 11px}.dd td{padding:1px 6px 1px 0;vertical-align:top}.dd td:first-child{white-space:nowrap}
+.sg{display:block;height:58px;width:auto;margin:4px 0}
+#sig{display:block;width:100%;height:auto;aspect-ratio:3/1;background:#fff;border-radius:10px;border:1.5px dashed var(--line);touch-action:none;cursor:crosshair}
+#paper.tpl-kreatif .nm{font-size:34px;letter-spacing:-.03em}
+#paper.tpl-kreatif .ct{color:inherit;opacity:.9}
+#paper.tpl-klasik .nm{font-weight:600;letter-spacing:.02em}
+.tpl-elegan{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-size:14.5px!important;border-top:12px solid var(--acc)}
+#paper.tpl-elegan .hd{flex-direction:column;justify-content:center;text-align:center;border-bottom:1px solid var(--acc);padding-bottom:12px}
+#paper.tpl-elegan .nm{color:var(--acc);font-weight:600;letter-spacing:.06em}
+.tpl-elegan .pf{order:-1;box-shadow:0 0 0 2px var(--acc)}
+.tpl-minimal{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:13px}
+.tpl-minimal .hx{border-left:4px solid var(--acc);padding-left:12px}
+#paper.tpl-minimal .nm{font-size:20px;font-weight:600;letter-spacing:-.01em}
+#scam ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:6px}
+#scam li{font-size:13px;padding:8px 10px;border-radius:10px;background:var(--bg);border-left:4px solid var(--line);color:var(--mute)}
+#scam li b{display:block;font-size:14px;color:var(--ink)}
+#scam li.hi{border-color:#e5484d}#scam li.md{border-color:#f2b705}#scam li.lo{border-color:#8b9aa5}#scam li.ok{border-color:#0f8a6a}
+.guide{max-width:820px;margin:0 auto;padding:44px 20px 80px;line-height:1.65}
+.guide h2{font-size:24px;letter-spacing:-.02em;margin:34px 0 10px}
+.guide h2:first-child{margin-top:0}
+.guide ol,.guide ul{padding-left:22px;margin:8px 0}
+.guide li{margin-bottom:6px}
+.guide details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:8px}
+.guide summary{font-weight:600;cursor:pointer}
+.guide summary:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.guide details p{margin:8px 0 0;color:var(--mute)}
+.tabs{display:none}
+@media (max-width:900px){
+ .app{display:block}
+ .side{position:static;max-height:none;border-right:0}
+ .stage{padding:16px 10px 40px}
+ .tabs{display:flex;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--line)}
+ .tab{flex:1;font:inherit;font-weight:600;padding:12px;border:0;background:none;color:var(--mute);border-bottom:3px solid transparent}
+ .tab[aria-selected="true"]{color:var(--ink);border-color:var(--acc)}
+ body[data-view="isi"] .stage{display:none}
+ body[data-view="lihat"] .side{display:none}
+ .lpage{min-width:0;aspect-ratio:auto;min-height:420px;padding:24px}
+ #paper{min-width:0;padding:30px 26px;font-size:11px;aspect-ratio:auto;min-height:480px}
+ .tpl-kreatif .hd{margin:0 -26px 20px;padding:24px 26px 18px}
+ #paper.tpl-kreatif .nm{font-size:26px}
+ .pf{width:calc(var(--pfs,120)*.6px);height:calc(var(--pfs,120)*.6px)}
+}
+@media print{
+ @page{size:A4;margin:0}
+ body{background:#fff}.side,.bar2,.tabs,.guide{display:none!important}
+ .app{display:block}.stage{padding:0;background:#fff;display:block!important}
+ .wrap{max-width:none;overflow:visible}
+ .lpage{box-shadow:none;width:210mm;height:297mm;aspect-ratio:auto;min-width:0;margin:0;break-before:page;page-break-before:always}
+ #paper{box-shadow:none;width:210mm;min-height:296mm;height:auto;aspect-ratio:auto;min-width:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .ph{background:none;color:transparent;border-bottom:1.5px dotted #000;border-radius:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body data-view="isi">
+<div class="tabs" role="tablist">
+ <button class="tab" role="tab" aria-selected="true" data-v="isi">Isi data</button>
+ <button class="tab" role="tab" aria-selected="false" data-v="lihat">Lihat surat</button>
+</div>
+<div class="app">
+<aside class="side">
+ <div class="brand"><div class="logo">L</div><h1>Lamar.in</h1></div>
+ <p class="sub">Isi data di sini, surat lamaran tersusun otomatis di sebelah kanan.</p>
+
+ <div class="meter" aria-live="polite"><b id="mt">Kelengkapan 0%</b><div class="bar"><i id="mb"></i></div><small id="mh"></small></div>
+
+ <fieldset><legend>Gaya surat</legend>
+  <label>Bahasa surat</label>
+  <div class="chips" id="langChips"><button type="button" class="chip" data-lang="id" aria-pressed="true">Indonesia</button><button type="button" class="chip" data-lang="en" aria-pressed="false">English</button></div>
+  <label>Format</label>
+  <div class="chips" id="fmtChips"><button type="button" class="chip" data-fmt="formal" aria-pressed="true">Formal (lengkap)</button><button type="button" class="chip" data-fmt="simple" aria-pressed="false">Simpel (ringkas)</button></div>
+  <label>Desain</label>
+  <div class="chips" id="tplChips">
+   <button class="chip" data-tpl="klasik" aria-pressed="false">Klasik</button>
+   <button class="chip" data-tpl="modern" aria-pressed="true">Modern</button>
+   <button class="chip" data-tpl="kreatif" aria-pressed="false">Kreatif</button>
+   <button class="chip" data-tpl="elegan" aria-pressed="false">Elegan</button>
+   <button class="chip" data-tpl="minimal" aria-pressed="false">Minimal</button>
+  </div>
+  <label>Warna aksen</label>
+  <div class="chips" id="swatches">
+   <button type="button" class="sw" style="background:#1f5eff" data-c="#1f5eff" aria-label="Biru" title="Biru" aria-pressed="true"></button>
+   <button type="button" class="sw" style="background:#0b2e6b" data-c="#0b2e6b" aria-label="Navy" title="Navy" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#0284c7" data-c="#0284c7" aria-label="Biru langit" title="Biru langit" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#0d9488" data-c="#0d9488" aria-label="Teal" title="Teal" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#0f8a6a" data-c="#0f8a6a" aria-label="Hijau" title="Hijau" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#84cc16" data-c="#84cc16" aria-label="Hijau lime" title="Hijau lime" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#f2b705" data-c="#f2b705" aria-label="Kuning" title="Kuning" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#f97316" data-c="#f97316" aria-label="Oranye" title="Oranye" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#e5484d" data-c="#e5484d" aria-label="Merah" title="Merah" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#9f1239" data-c="#9f1239" aria-label="Marun" title="Marun" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#db2777" data-c="#db2777" aria-label="Pink" title="Pink" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#7c3aed" data-c="#7c3aed" aria-label="Ungu" title="Ungu" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#92400e" data-c="#92400e" aria-label="Cokelat" title="Cokelat" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#475569" data-c="#475569" aria-label="Abu-abu" title="Abu-abu" aria-pressed="false"></button>
+   <button type="button" class="sw" style="background:#14212b" data-c="#14212b" aria-label="Hitam" title="Hitam" aria-pressed="false"></button>
+   <label class="sw cust" title="Pilih warna sendiri"><input type="color" id="swc" class="sr" value="#1f5eff" aria-label="Warna sendiri"></label>
+  </div>
+  <label>Nada tulisan</label>
+  <div class="chips" id="toneChips">
+   <button class="chip" data-tone="formal" aria-pressed="true">Formal</button>
+   <button class="chip" data-tone="antusias" aria-pressed="false">Antusias</button>
+   <button class="chip" data-tone="ringkas" aria-pressed="false">Ringkas</button>
+  </div>
+ </fieldset>
+
+ <fieldset><legend>Tentang Anda</legend>
+  <div class="pfrow">
+   <label class="pfth" for="pfi"><input type="file" id="pfi" class="sr" accept="image/*"><span id="pfph">+</span><img id="pfimg" alt="" hidden></label>
+   <div>
+    <div class="chips"><button type="button" class="chip" id="pfbtn">Pilih foto</button><button type="button" class="chip" id="pfdel" hidden>Hapus</button></div>
+    <div class="chips" id="shapeChips" style="margin-top:8px"><button type="button" class="chip" data-shape="round" aria-pressed="true">Bulat</button><button type="button" class="chip" data-shape="square" aria-pressed="false">Kotak</button></div>
+   </div>
+  </div>
+  <label for="pfs" style="margin:10px 0 2px">Ukuran foto</label><input type="range" id="pfs" min="70" max="170" value="120">
+  <small class="hint" id="pmsg" role="status">Foto dipotong persegi otomatis dan hanya tersimpan di browser Anda.</small>
+  <label for="nama">Nama lengkap</label><input id="nama" placeholder="Contoh: Rina Maharani">
+  <div class="row"><div><label for="email">Email</label><input id="email" type="email" placeholder="rina@email.com"></div>
+  <div><label for="hp">No. HP</label><input id="hp" placeholder="0812-3456-7890"></div></div>
+  <label for="kota">Kota Anda</label><input id="kota" placeholder="Jakarta">
+  <label for="tgl">Tanggal surat</label><input id="tgl" type="date">
+  <label for="ttl">Tempat, tanggal lahir</label><input id="ttl" placeholder="Jakarta, 12 Mei 2002">
+  <label for="alamat">Alamat</label><input id="alamat" placeholder="Jl. Melati No. 5, Jakarta Selatan">
+ </fieldset>
+
+ <fieldset><legend>Lowongan yang dituju</legend>
+  <label for="posisi">Posisi</label><input id="posisi" placeholder="Content Marketing Specialist">
+  <label for="perusahaan">Perusahaan</label><input id="perusahaan" placeholder="PT Maju Bersama">
+  <label for="alamatp">Alamat perusahaan (opsional)</label><input id="alamatp" placeholder="Jl. Sudirman No. 10, Jakarta">
+  <label for="tujuan">Surat ditujukan kepada</label>
+  <select id="tujuan"><option>HRD</option><option>HR Manager</option><option>Tim Rekrutmen</option><option>Bagian Sumber Daya Manusia</option><option value="__lain">Lainnya (isi sendiri)</option></select>
+  <input id="tujuan2" placeholder="Contoh: Ibu Sari, HR Manager" hidden style="margin-top:8px">
+  <label for="sumber">Info lowongan dari</label>
+  <select id="sumber"><option>LinkedIn</option><option>JobStreet</option><option>Glints</option><option>Instagram</option><option>situs resmi perusahaan</option><option>rekomendasi teman</option><option value="__lain">Lainnya (isi sendiri)</option></select>
+  <input id="sumber2" placeholder="Contoh: bursa kerja sekolah, brosur, Facebook" hidden style="margin-top:8px">
+ </fieldset>
+
+ <fieldset id="scamset"><legend>Cek lowongan (opsional)</legend>
+  <label for="iklan">Tempel teks iklan lowongan</label>
+  <textarea id="iklan" placeholder="Tempel isi iklan dari Instagram, WhatsApp, atau situs lowongan di sini"></textarea>
+  <div class="chips" style="margin-top:8px"><button type="button" class="chip" id="cek">Periksa tanda penipuan</button><button type="button" class="chip" id="isi">Isi otomatis posisi dan perusahaan</button></div>
+  <div id="scam" role="status"></div>
+  <small class="hint">Hanya mencocokkan pola umum penipuan lowongan. Bukan jaminan keaslian, jadi cek juga perusahaannya lewat situs resmi.</small>
+ </fieldset>
+
+ <fieldset><legend>Nilai jual Anda</legend>
+  <label for="pend">Pendidikan terakhir</label><input id="pend" placeholder="SMK Negeri 1 Jakarta (Akuntansi) atau S1 Komunikasi UI">
+  <label for="exp">Pengalaman kerja</label>
+  <select id="exp"><option value="fresh">Fresh graduate (belum ada pengalaman kerja)</option><option value="pkl">Fresh graduate (pernah magang / PKL)</option><option value="1">1–2 tahun</option><option value="3">3–5 tahun</option><option value="6">Lebih dari 5 tahun</option></select>
+  <label for="skill">Keahlian (pisahkan dengan koma)</label><input id="skill" placeholder="SEO, copywriting, Google Analytics">
+  <label for="hasil">Satu pencapaian terbaik</label><textarea id="hasil" placeholder="Meningkatkan trafik blog 140% dalam 6 bulan"></textarea>
+  <label for="motif">Mengapa perusahaan ini?</label><textarea id="motif" placeholder="Saya mengagumi cara perusahaan Anda bercerita lewat konten edukatif."></textarea>
+ </fieldset>
+
+ <fieldset><legend>Lampiran</legend>
+  <div class="chips" id="lamp">
+   <button class="chip" aria-pressed="true">CV</button><button class="chip" aria-pressed="true">Ijazah</button>
+   <button class="chip" aria-pressed="true">Transkrip nilai</button><button class="chip" aria-pressed="false">Sertifikat</button>
+   <button class="chip" aria-pressed="false">Portofolio</button><button class="chip" aria-pressed="false">KTP</button>
+   <button class="chip" aria-pressed="false">Pas foto</button><button class="chip" aria-pressed="false">SKCK</button>
+  </div>
+  <label for="lainl">Lampiran lain (pisahkan dengan koma)</label><input id="lainl" placeholder="Surat sehat, Kartu BPJS">
+  <label class="dz" id="dz"><input type="file" id="fi" class="sr" multiple accept="image/*,.pdf,.doc,.docx"><b>Tambah file lampiran</b>Tarik file ke sini atau klik. Gambar (JPG, PNG) ikut tercetak sebagai halaman lampiran. Maks 10 file, 5 MB per file.</label>
+  <p id="fmsg" role="status"></p>
+  <ul id="flist"></ul>
+ </fieldset>
+ <fieldset><legend>Tanda tangan</legend>
+  <canvas id="sig" width="600" height="200" aria-label="Area tanda tangan"></canvas>
+  <div class="chips" style="margin-top:8px"><button type="button" class="chip" id="sigclr">Hapus tanda tangan</button></div>
+  <small class="hint">Gambar dengan jari atau mouse. Kosongkan jika ingin tanda tangan basah setelah dicetak.</small>
+ </fieldset>
+</aside>
+
+<main class="stage">
+ <div class="bar2">
+  <span class="hint">Pratinjau langsung, ukuran A4</span>
+  <span style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="copysub">Salin subjek email</button><button class="btn" id="copy">Salin teks</button><button class="btn p" id="print">Cetak / simpan PDF</button></span>
+ </div>
+ <div class="wrap"><article id="paper" class="tpl-modern"></article><div id="lampPages"></div></div>
+</main>
+</div>
+
+<section class="guide" aria-labelledby="gd">
+ <h2 id="gd">Format surat lamaran kerja yang benar</h2>
+ <p>Struktur ini umum diterima HRD. Lamar.in menyusunnya otomatis dari data yang Anda isi.</p>
+ <ol>
+  <li>Tempat dan tanggal penulisan surat, rata kanan.</li>
+  <li>Perihal dan jumlah lampiran.</li>
+  <li>Alamat tujuan, misalnya "Kepada Yth. HRD" lalu nama perusahaan.</li>
+  <li>Salam pembuka: "Dengan hormat,".</li>
+  <li>Paragraf pembuka berisi posisi yang dilamar dan sumber lowongan.</li>
+  <li>Data diri singkat: nama, tempat dan tanggal lahir, pendidikan, alamat, dan kontak.</li>
+  <li>Kualifikasi, pencapaian, dan alasan memilih perusahaan.</li>
+  <li>Daftar lampiran bernomor, lalu paragraf penutup dan tanda tangan di atas nama terang.</li>
+ </ol>
+ <h2>Tips agar surat lebih meyakinkan</h2>
+ <ul>
+  <li>Sebut sumber lowongan secara spesifik, misalnya nama situs atau akun, supaya jelas asal lamaran Anda.</li>
+  <li>Pilih satu pencapaian dengan angka, misalnya "menaikkan trafik blog 140% dalam 6 bulan".</li>
+  <li>Tulis alasan memilih perusahaan itu, bukan alasan umum yang bisa dipakai di mana saja.</li>
+  <li>Sesuaikan lampiran dengan syarat di iklan, dan kirim dari alamat email yang profesional.</li>
+  <li>Sebelum melamar, tempel iklannya di kolom "Cek lowongan" untuk mengenali tanda penipuan yang umum.</li>
+ </ul>
+ <h2>Pertanyaan yang sering ditanya</h2>
+ <details><summary>Apakah lulusan SMA atau SMK termasuk fresh graduate?</summary><p>Ya. Fresh graduate berarti baru lulus dan belum punya pengalaman kerja penuh, apa pun jenjang pendidikannya. Pilih "Fresh graduate (pernah magang / PKL)" bila Anda sudah pernah PKL.</p></details>
+ <details><summary>Surat lamaran sebaiknya PDF atau tulis tangan?</summary><p>Ikuti permintaan di iklan lowongan. Untuk lamaran online atau email, PDF adalah pilihan yang umum. Pilih "Simpan sebagai PDF" di jendela cetak.</p></details>
+ <details><summary>Bagaimana jika melamar lewat email?</summary><p>Gunakan tombol "Salin teks" untuk badan email, dan "Salin subjek email" untuk subjeknya. Lampirkan berkas pendukung sebagai PDF.</p></details>
+ <details><summary>Apakah data saya aman?</summary><p>Semua data diproses di browser dan tersimpan di perangkat Anda saja, tidak dikirim ke server. Data tersimpan otomatis supaya Anda tidak perlu mengisi ulang saat melamar ke perusahaan lain.</p></details>
+</section>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var S={tpl:"modern",tone:"formal",lang:"id",fmt:"formal"};var files=[];var photo=null,shape="round",sigData=null;
+var ids=["nama","email","hp","kota","posisi","perusahaan","sumber","sumber2","tujuan","pend","ttl","alamat","tgl","tujuan2","alamatp","lainl","exp","skill","hasil","motif"];
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function v(id){return $(id).value.trim()}
+function f(id,ph){var x=v(id);return x?esc(x):'<span class="ph">'+ph+'</span>'}
+function lampiran(){return Array.prototype.filter.call($("lamp").children,function(b){return b.getAttribute("aria-pressed")==="true"}).map(function(b){return b.textContent})}
+var EN_L={"CV":"Curriculum Vitae (CV)","Ijazah":"Diploma","Transkrip nilai":"Academic transcript","Sertifikat":"Certificates","Portofolio":"Portfolio","KTP":"National ID card (KTP)","Pas foto":"Passport photo","SKCK":"Police clearance certificate (SKCK)"};
+var EN_TO={"HRD":"HR Department","HR Manager":"HR Manager","Tim Rekrutmen":"Recruitment Team","Bagian Sumber Daya Manusia":"Human Resources Department"};
+var EN_SRC={"situs resmi perusahaan":"the company's website","rekomendasi teman":"a friend's recommendation"};
+function pick(a,b){return v(a)==="__lain"?v(b):v(a)}
+function build(){
+ var en=S.lang==="en",simple=S.fmt==="simple";
+ function P(a,b){return en?b:a}
+ var n=f("nama",P("[Nama Anda]","[Your name]")),pos=f("posisi",P("[posisi]","[position]")),per=f("perusahaan",P("[nama perusahaan]","[company name]"));
+ var sr=pick("sumber","sumber2");if(en&&EN_SRC[sr])sr=EN_SRC[sr];
+ var sum=sr?esc(sr):'<span class="ph">'+P("[sumber lowongan]","[job source]")+'</span>';
+ var kota=v("kota")||P("[Kota]","[City]");
+ var dt=v("tgl")?new Date(v("tgl")+"T00:00:00"):new Date();
+ var tgl=dt.toLocaleDateString(en?"en-GB":"id-ID",{day:"numeric",month:"long",year:"numeric"});
+ var tr=pick("tujuan","tujuan2");if(en&&EN_TO[tr])tr=EN_TO[tr];
+ var to=tr?esc(tr):'<span class="ph">'+P("[penerima]","[recipient]")+'</span>';
+ var addr=v("alamatp")?"<br>"+esc(v("alamatp")):"";
+ var open=en?{
+  formal:"I am writing to apply for the position of <b>"+pos+"</b> at "+per+", which I learned about from "+sum+".",
+  antusias:"I was thrilled to see the <b>"+pos+"</b> opening at "+per+" on "+sum+". The role matches the direction I want my career to take.",
+  ringkas:"I would like to apply for the <b>"+pos+"</b> position at "+per+" (found via "+sum+")."}[S.tone]:{
+  formal:"Berdasarkan informasi lowongan yang saya peroleh dari "+sum+", dengan ini saya mengajukan lamaran untuk posisi <b>"+pos+"</b> di "+per+".",
+  antusias:"Saya sangat antusias ketika melihat lowongan <b>"+pos+"</b> di "+per+" melalui "+sum+". Posisi ini sejalan dengan arah karier yang ingin saya tuju.",
+  ringkas:"Saya melamar posisi <b>"+pos+"</b> di "+per+" (info dari "+sum+")."}[S.tone];
+ var pend=f("pend",P("[pendidikan terakhir]","[latest education]"));
+ var ex=(en?{fresh:"As a recent graduate, I learn quickly and am ready to contribute from day one.",
+  pkl:"As a recent graduate with internship experience, I am already familiar with the workplace and ready to contribute from day one.",
+  "1":"I have around 1-2 years of work experience that has given me a solid foundation.",
+  "3":"With 3-5 years of work experience, I am used to working independently and collaborating in a team.",
+  "6":"With more than 5 years of experience, I am used to leading work and making data-driven decisions."}:{
+  fresh:"Sebagai lulusan baru, saya terbiasa belajar cepat dan siap berkontribusi sejak hari pertama.",
+  pkl:"Sebagai lulusan baru yang pernah menjalani magang atau praktik kerja lapangan, saya sudah mengenal suasana kerja dan siap berkontribusi sejak hari pertama.",
+  "1":"Saya memiliki pengalaman kerja sekitar 1\u20132 tahun yang membentuk dasar kerja yang kuat.",
+  "3":"Dengan pengalaman kerja 3\u20135 tahun, saya terbiasa menangani pekerjaan secara mandiri dan bekerja sama dalam tim.",
+  "6":"Dengan pengalaman lebih dari 5 tahun, saya terbiasa memimpin pekerjaan dan mengambil keputusan berdasarkan data."})[v("exp")];
+ var sk=v("skill").split(",").map(function(x){return x.trim()}).filter(Boolean);
+ var skills=sk.length?P(" Keahlian utama saya meliputi "," My main skills include ")+esc(sk.join(", "))+".":"";
+ var p2=ex+skills;
+ var p3=v("hasil")?"<p>"+P("Salah satu pencapaian yang saya banggakan: ","One achievement I am proud of: ")+esc(v("hasil").replace(/\.$/,""))+".</p>":"";
+ var p4=v("motif")?"<p>"+esc(v("motif"))+"</p>":"";
+ var lcs=lampiran().map(function(x){return en&&EN_L[x]?EN_L[x]:x});
+ var extra=v("lainl").split(",").map(function(x){return x.trim()}).filter(Boolean);
+ var l=lcs.concat(extra,files.map(function(x){return x.name}));
+ var lam="";
+ if(l.length){lam=simple?"<p>"+P("Lampiran: ","Attachments: ")+l.map(esc).join(", ")+".</p>":"<p>"+P("Sebagai bahan pertimbangan, saya lampirkan:","For your consideration, I have attached:")+"</p><ol>"+l.map(function(x){return "<li>"+esc(x)+"</li>"}).join("")+"</ol>"}
+ var close=(en?{formal:"I would be grateful for the opportunity to take part in the next stage of the selection process. Thank you for your time and consideration.",
+  antusias:"I would love to discuss this further with your team. Thank you for your time and the opportunity.",
+  ringkas:"I am available for an interview at any time. Thank you."}:{
+  formal:"Besar harapan saya untuk dapat diberi kesempatan mengikuti proses seleksi lebih lanjut. Atas perhatian Bapak/Ibu, saya ucapkan terima kasih.",
+  antusias:"Saya akan sangat senang bila bisa berdiskusi langsung dengan tim Anda. Terima kasih atas waktu dan kesempatannya.",
+  ringkas:"Saya siap untuk wawancara kapan saja. Terima kasih."})[S.tone];
+ var contact=[v("email"),v("hp")].filter(Boolean).map(esc).join(" &nbsp;|&nbsp; ")||'<span class="ph">email &nbsp;|&nbsp; '+P("no. HP","phone")+'</span>';
+ var rows=[[P("Nama","Name"),n],[P("Tempat/tgl. lahir","Place/date of birth"),f("ttl",P("[tempat, tanggal lahir]","[place, date of birth]"))],[P("Pendidikan","Education"),pend],[P("Alamat","Address"),f("alamat",P("[alamat lengkap]","[full address]"))],[P("No. HP","Phone"),f("hp",P("[no. HP]","[phone]"))],["Email",f("email","[email]")]];
+ var dd='<table class="dd">'+rows.map(function(r){return '<tr><td>'+r[0]+'</td><td>:</td><td>'+r[1]+'</td></tr>'}).join("")+'</table>';
+ var sign='<p style="margin-top:20px">'+P("Hormat saya,","Sincerely,")+(sigData?'<img class="sg" src="'+sigData+'" alt="Tanda tangan">':'<br><br><br>')+'<b>'+n+'</b></p>';
+ var subj=en?'<p>Subject: <b>Job Application - '+pos+'</b><br>Attachments: '+(l.length?l.length+" file"+(l.length>1?"s":""):"-")+'</p>':'<p>Hal: <b>Lamaran Pekerjaan</b><br>Lampiran: '+(l.length?l.length+" berkas":"-")+'</p>';
+ $("paper").innerHTML='<div class="hd"><div class="hx"><div class="nm">'+n+'</div><div class="ct">'+contact+'</div></div>'+(photo?'<img class="pf '+shape+'" src="'+photo+'" alt="Foto profil">':'')+'</div>'+
+  '<p style="text-align:right">'+esc(kota)+', '+tgl+'</p>'+subj+
+  '<p>'+P("Kepada Yth.<br>","To:<br>")+to+'<br>'+per+addr+'</p>'+
+  '<p>'+P("Dengan hormat,","Dear Sir/Madam,")+'</p><p>'+open+'</p>'+
+  (simple?"":'<p>'+P("Adapun data diri saya sebagai berikut:","My personal details are as follows:")+'</p>'+dd)+
+  '<p>'+p2+'</p>'+p3+p4+lam+'<p>'+close+'</p>'+sign;
+ $("paper").className="tpl-"+S.tpl;
+ var req=["nama","email","hp","kota","ttl","alamat","posisi","perusahaan","pend","skill","hasil","motif"],d=req.filter(function(i){return v(i)}).length;
+ var pc=Math.round(d/req.length*100);
+ $("mt").textContent="Kelengkapan "+pc+"%";$("mb").style.width=pc+"%";
+ var tips={"hasil":"Tambahkan pencapaian dengan angka agar lebih meyakinkan.","motif":"Jelaskan alasan memilih perusahaan ini.","skill":"Cantumkan keahlian yang sesuai dengan lowongan.","posisi":"Isi posisi yang Anda lamar."};
+ var miss=["posisi","skill","hasil","motif"].filter(function(i){return !v(i)})[0];
+ $("mh").textContent=pc===100?"Surat Anda siap dikirim.":(miss?tips[miss]:"Lengkapi data diri Anda.");
+ save();
+}
+function group(el,attr,cb){el.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+ Array.prototype.forEach.call(el.children,function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});cb(b);build()})}
+group($("tplChips"),0,function(b){S.tpl=b.dataset.tpl});
+group($("toneChips"),0,function(b){S.tone=b.dataset.tone});
+group($("langChips"),0,function(b){S.lang=b.dataset.lang});
+group($("fmtChips"),0,function(b){S.fmt=b.dataset.fmt});
+function onAcc(h){var n=parseInt(h.slice(1),16),l=.299*(n>>16&255)+.587*(n>>8&255)+.114*(n&255);return l>140?"#1b1b1b":"#fff"}
+function setAcc(h){var r=document.documentElement.style;r.setProperty("--acc",h);r.setProperty("--onacc",onAcc(h))}
+group($("swatches"),0,function(b){setAcc(b.dataset.c);document.querySelector(".cust").classList.remove("on")});
+$("swc").addEventListener("input",function(){
+ Array.prototype.forEach.call($("swatches").children,function(x){x.setAttribute("aria-pressed","false")});
+ document.querySelector(".cust").classList.add("on");setAcc(this.value);build();
+});
+$("lamp").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")==="true"?"false":"true");build()});
+ids.forEach(function(i){$(i).addEventListener("input",build)});
+$("sumber").addEventListener("change",function(){$("sumber2").hidden=this.value!=="__lain";build()});
+$("tujuan").addEventListener("change",function(){$("tujuan2").hidden=this.value!=="__lain";build()});
+$("print").addEventListener("click",function(){try{window.print()}catch(e){alert("Cetak tidak tersedia di sini. Gunakan Ctrl+P.")}});
+$("copy").addEventListener("click",function(){
+ var t=$("paper").innerText,b=$("copy");
+ function ok(){b.textContent="Tersalin";setTimeout(function(){b.textContent="Salin teks"},1600)}
+ function fb(){var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");ok()}catch(e){b.textContent="Gagal menyalin"}document.body.removeChild(a)}
+ try{navigator.clipboard.writeText(t).then(ok,fb)}catch(e){fb()}});
+document.querySelectorAll(".tab").forEach(function(t){t.addEventListener("click",function(){
+ document.body.dataset.view=t.dataset.v;document.querySelectorAll(".tab").forEach(function(x){x.setAttribute("aria-selected",x===t?"true":"false")});window.scrollTo(0,0)})});
+var dz=$("dz"),fi=$("fi");
+function say(t){$("fmsg").textContent=t}
+function sz(n){return n>1048576?(n/1048576).toFixed(1)+" MB":Math.max(1,Math.round(n/1024))+" KB"}
+function ext(n){var m=/\.([a-z0-9]+)$/i.exec(n);return m?m[1].toUpperCase():"FILE"}
+function renderFiles(){
+ $("flist").innerHTML=files.map(function(x,i){
+  var th=x.data?'<img src="'+x.data+'" alt="">':'<span>'+esc(ext(x.name))+'</span>';
+  return '<li><div class="th">'+th+'</div><div class="fi"><b>'+esc(x.name)+'</b><small>'+sz(x.size)+(x.data?', tampil sebagai halaman lampiran':', kirim terpisah')+'</small></div>'+
+   '<button type="button" data-a="up" data-i="'+i+'" aria-label="Naikkan">&uarr;</button>'+
+   '<button type="button" data-a="down" data-i="'+i+'" aria-label="Turunkan">&darr;</button>'+
+   '<button type="button" data-a="del" data-i="'+i+'" aria-label="Hapus">&times;</button></li>'}).join("");
+ $("lampPages").innerHTML=files.filter(function(x){return x.data}).map(function(x){
+  return '<section class="lpage"><div class="lh">Lampiran: '+esc(x.name)+'</div><img src="'+x.data+'" alt="'+esc(x.name)+'"></section>'}).join("");
+ build();
+}
+function addFiles(list){
+ say("");
+ Array.prototype.forEach.call(list,function(fl){
+  if(files.length>=10){say("Maksimal 10 file.");return}
+  if(fl.size>5242880){say(fl.name+" lebih dari 5 MB, tidak ditambahkan.");return}
+  if(/^image\/(png|jpe?g|webp|gif)$/.test(fl.type)){
+   var r=new FileReader();
+   r.onload=function(){files.push({name:fl.name,size:fl.size,data:r.result});renderFiles()};
+   r.onerror=function(){say("Gagal membaca "+fl.name)};
+   r.readAsDataURL(fl);
+  }else{files.push({name:fl.name,size:fl.size,data:null});renderFiles()}
+ });
+}
+fi.addEventListener("change",function(){addFiles(fi.files);fi.value=""});
+dz.addEventListener("dragover",function(e){e.preventDefault();dz.classList.add("over")});
+dz.addEventListener("dragleave",function(){dz.classList.remove("over")});
+dz.addEventListener("drop",function(e){e.preventDefault();dz.classList.remove("over");addFiles(e.dataTransfer.files)});
+$("flist").addEventListener("click",function(e){
+ var b=e.target.closest("button");if(!b)return;
+ var i=+b.dataset.i,a=b.dataset.a;
+ if(a==="del")files.splice(i,1);
+ else if(a==="up"&&i>0){var t=files[i];files[i]=files[i-1];files[i-1]=t}
+ else if(a==="down"&&i<files.length-1){var u=files[i];files[i]=files[i+1];files[i+1]=u}
+ renderFiles();
+});
+var HINT="Foto dipotong persegi otomatis dan hanya tersimpan di browser Anda.";
+function renderPhoto(){
+ $("pfimg").hidden=!photo;if(photo)$("pfimg").src=photo;
+ $("pfph").hidden=!!photo;$("pfdel").hidden=!photo;
+ build();
+}
+$("pfs").addEventListener("input",function(){$("paper").style.setProperty("--pfs",this.value)});
+$("pfbtn").addEventListener("click",function(){$("pfi").click()});
+$("pfdel").addEventListener("click",function(){photo=null;$("pmsg").textContent=HINT;renderPhoto()});
+group($("shapeChips"),0,function(b){shape=b.dataset.shape});
+$("pfi").addEventListener("change",function(){
+ var fl=this.files[0];this.value="";
+ if(!fl)return;
+ if(!/^image\//.test(fl.type)){$("pmsg").textContent="File harus berupa gambar (JPG atau PNG).";return}
+ if(fl.size>10485760){$("pmsg").textContent="Foto lebih dari 10 MB. Pilih foto yang lebih kecil.";return}
+ var r=new FileReader();
+ r.onload=function(){
+  var im=new Image();
+  im.onload=function(){
+   var s=Math.min(im.width,im.height),c=document.createElement("canvas");
+   c.width=c.height=360;
+   c.getContext("2d").drawImage(im,(im.width-s)/2,(im.height-s)/2,s,s,0,0,360,360);
+   photo=c.toDataURL("image/jpeg",.88);
+   $("pmsg").textContent=HINT;renderPhoto();
+  };
+  im.onerror=function(){$("pmsg").textContent="File tidak bisa dibaca sebagai gambar."};
+  im.src=r.result;
+ };
+ r.onerror=function(){$("pmsg").textContent="Gagal membaca foto."};
+ r.readAsDataURL(fl);
+});
+function copyTxt(t,b,lab){
+ function ok(){b.textContent="Tersalin";setTimeout(function(){b.textContent=lab},1600)}
+ function fb(){var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");ok()}catch(e){b.textContent="Gagal menyalin"}document.body.removeChild(a)}
+ try{navigator.clipboard.writeText(t).then(ok,fb)}catch(e){fb()}}
+$("copysub").addEventListener("click",function(){copyTxt((S.lang==="en"?"Job Application - ":"Lamaran Kerja - ")+(v("posisi")||"[Posisi]")+" - "+(v("nama")||"[Nama]"),this,"Salin subjek email")});
+var sig=$("sig"),sctx=sig.getContext("2d"),drawing=false;
+sctx.lineWidth=4;sctx.lineCap="round";sctx.lineJoin="round";sctx.strokeStyle="#1a2f6b";
+function sp(e){var r=sig.getBoundingClientRect();return [(e.clientX-r.left)*sig.width/r.width,(e.clientY-r.top)*sig.height/r.height]}
+sig.addEventListener("pointerdown",function(e){e.preventDefault();drawing=true;try{sig.setPointerCapture(e.pointerId)}catch(x){}var p=sp(e);sctx.beginPath();sctx.moveTo(p[0],p[1]);sctx.lineTo(p[0]+.1,p[1]+.1);sctx.stroke()});
+sig.addEventListener("pointermove",function(e){if(!drawing)return;var p=sp(e);sctx.lineTo(p[0],p[1]);sctx.stroke();sctx.beginPath();sctx.moveTo(p[0],p[1])});
+function endSig(){if(!drawing)return;drawing=false;sigData=sig.toDataURL("image/png");build()}
+sig.addEventListener("pointerup",endSig);sig.addEventListener("pointercancel",endSig);
+$("sigclr").addEventListener("click",function(){sctx.clearRect(0,0,sig.width,sig.height);sigData=null;build()});
+function save(){try{var o={f:{},tpl:S.tpl,tone:S.tone,lang:S.lang,fmt:S.fmt,shape:shape,acc:document.documentElement.style.getPropertyValue("--acc")||"",lamp:Array.prototype.map.call($("lamp").children,function(b){return b.getAttribute("aria-pressed")==="true"}),pfs:$("pfs").value,photo:photo,sig:sigData};ids.forEach(function(i){o.f[i]=$(i).value});localStorage.setItem("lamarin_v1",JSON.stringify(o))}catch(e){}}
+function pressOne(el,test){Array.prototype.forEach.call(el.children,function(x){x.setAttribute("aria-pressed",test(x)?"true":"false")})}
+function load(){try{
+ var o=JSON.parse(localStorage.getItem("lamarin_v1")||"null");if(!o)return;
+ ids.forEach(function(i){if(o.f&&o.f[i]!=null)$(i).value=o.f[i]});
+ $("sumber2").hidden=$("sumber").value!=="__lain";$("tujuan2").hidden=$("tujuan").value!=="__lain";
+ S.tpl=o.tpl||S.tpl;S.tone=o.tone||S.tone;S.lang=o.lang||S.lang;S.fmt=o.fmt||S.fmt;shape=o.shape||shape;
+ pressOne($("tplChips"),function(x){return x.dataset.tpl===S.tpl});
+ pressOne($("toneChips"),function(x){return x.dataset.tone===S.tone});
+ pressOne($("shapeChips"),function(x){return x.dataset.shape===shape});
+ pressOne($("langChips"),function(x){return x.dataset.lang===S.lang});
+ pressOne($("fmtChips"),function(x){return x.dataset.fmt===S.fmt});
+ if(o.acc){var a=o.acc.trim(),hit=false;pressOne($("swatches"),function(x){var m=x.dataset.c===a;if(m)hit=true;return m});setAcc(a);if(!hit){$("swc").value=a;document.querySelector(".cust").classList.add("on")}}
+ if(o.lamp)Array.prototype.forEach.call($("lamp").children,function(b,i){b.setAttribute("aria-pressed",o.lamp[i]?"true":"false")});
+ if(o.pfs){$("pfs").value=o.pfs;$("paper").style.setProperty("--pfs",o.pfs)}
+ if(o.photo){photo=o.photo;$("pfimg").src=photo;$("pfimg").hidden=false;$("pfph").hidden=true;$("pfdel").hidden=false}
+ if(o.sig){sigData=o.sig;var im=new Image();im.onload=function(){sctx.drawImage(im,0,0,sig.width,sig.height)};im.src=sigData}
+}catch(e){}}
+load();
+var RULES=[
+ ["hi","Meminta biaya di awal","Lowongan asli umumnya tidak memungut biaya pendaftaran, seragam, atau pelatihan.",/(biaya|uang)\s*(pendaftaran|administrasi|admin|seragam|pelatihan|training|jaminan|deposit)|bayar\s*(dulu|di\s*muka)|transfer\s*(dulu|ke\s*rekening)|\bdeposit\b/i],
+ ["hi","Dijanjikan pasti diterima","Kata seperti \"tanpa interview\" atau \"pasti diterima\" tidak lazim pada rekrutmen resmi.",/tanpa\s+(interview|wawancara|seleksi|tes)|pasti\s+diterima|dijamin\s+(diterima|lolos)|garansi/i],
+ ["md","Meminta data sensitif sejak awal","Waspada bila diminta KTP, KK, rekening, PIN, atau kode OTP sebelum ada proses seleksi.",/(kirim|foto|scan|fotokopi)[^\n]{0,25}(ktp|kartu\s*keluarga|\bkk\b|rekening|ijazah\s*asli)|\b(otp|pin)\b/i],
+ ["md","Pekerjaan tugas online","Tugas like, subscribe, atau klik yang dibayar per tugas sering dipakai untuk penipuan.",/(like|subscribe|follow|klik)[^\n]{0,40}(gaji|bayaran|komisi|upah)|tugas\s*(harian|online)/i],
+ ["md","Rekrutmen lewat Telegram","Rekrutmen resmi jarang berjalan sepenuhnya lewat Telegram.",/telegram|\bt\.me\b/i],
+ ["lo","Hanya lewat WhatsApp","Cek apakah perusahaan juga punya email dan situs resmi.",/(hubungi|kontak|lamar|kirim)[^\n]{0,50}(\bwa\b|whatsapp|wa\.me)/i],
+ ["lo","Email pribadi, bukan domain perusahaan","Perusahaan resmi biasanya memakai email berdomain perusahaan.",/@(gmail|yahoo|outlook|hotmail)\./i],
+ ["lo","Mendesak","Tekanan waktu sering dipakai agar Anda tidak sempat mengecek.",/kuota\s*terbatas|hari\s*ini\s*saja|buruan|segera\s*daftar/i],
+ ["lo","Tautan pendek","Tautan pendek menyembunyikan tujuan sebenarnya.",/bit\.ly|tinyurl|\bs\.id\b|cutt\.ly/i]
+];
+function bigSalary(t){var m,re=/(\d+(?:[.,]\d+)?)\s*(?:juta|jt)/gi;while((m=re.exec(t))){if(parseFloat(m[1].replace(",","."))>=10&&/tanpa\s+(pengalaman|skill|keahlian)|fresh\s*graduate|lulusan\s*(sma|smk|baru)/i.test(t))return true}return false}
+$("cek").addEventListener("click",function(){
+ var t=$("iklan").value,out=$("scam");
+ if(!t.trim()){out.innerHTML='<ul><li class="lo"><b>Belum ada teks</b>Tempel isi iklan lowongan dulu.</li></ul>';return}
+ var hits=RULES.filter(function(r){return r[3].test(t)});
+ if(bigSalary(t))hits.unshift(["hi","Gaji besar tanpa syarat","Gaji belasan juta untuk pelamar tanpa pengalaman patut dicurigai."]);
+ var hi=hits.filter(function(r){return r[0]==="hi"}).length;
+ var head=!hits.length?'<li class="ok"><b>Tidak ada tanda yang mencolok</b>Tetap cek perusahaannya lewat situs resmi atau LinkedIn.</li>':(hi?'<li class="hi"><b>Berisiko tinggi, periksa dulu sebelum melamar</b>'+hi+' tanda berat ditemukan.</li>':'<li class="md"><b>Ada hal yang perlu diwaspadai</b>'+hits.length+' tanda ditemukan.</li>');
+ out.innerHTML='<ul>'+head+hits.map(function(r){return '<li class="'+r[0]+'"><b>'+r[1]+'</b>'+r[2]+'</li>'}).join("")+'</ul>';
+});
+$("isi").addEventListener("click",function(){
+ var t=$("iklan").value,out=$("scam"),got=[];
+ var pm=/(?:posisi|dibutuhkan|dicari|lowongan|hiring|vacancy)\s*[:\-]?\s*([^\n.,;:|]{3,50})/i.exec(t);
+ var cm=/\b((?:PT|CV|UD)\.?\s+[A-Z][A-Za-z0-9&.\-]*(?:\s+[A-Z][A-Za-z0-9&.\-]*){0,2})/.exec(t);
+ if(pm&&!v("posisi")){$("posisi").value=pm[1].trim();got.push("posisi")}
+ if(cm&&!v("perusahaan")){$("perusahaan").value=cm[1].trim().replace(/\s+/g," ");got.push("perusahaan")}
+ out.innerHTML='<ul><li class="'+(got.length?"ok":"lo")+'"><b>'+(got.length?"Terisi: "+got.join(" dan "):"Tidak ada yang bisa diisi")+'</b>'+(got.length?"Periksa dan ubah bila kurang tepat.":"Kolom yang sudah terisi tidak ditimpa, atau teks belum memuat nama posisi dan perusahaan.")+'</li></ul>';
+ build();
+});
+(function(){var d=new Date(),p=function(x){return(x<10?"0":"")+x};$("tgl").value=d.getFullYear()+"-"+p(d.getMonth()+1)+"-"+p(d.getDate())})();
+build();
+})();
+</script>
+</body>
+</html>
